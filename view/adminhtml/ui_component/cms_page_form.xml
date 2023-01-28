@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Binstellar Technologies Pvt. Ltd.
+ *
+ *
+ * @package     Binstellar_Freehomemeasure
+ * @copyright   Copyright (c) Binstellar (https://www.binstellar.com/)
+ */
+-->
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <fieldset name="general">
+        <field name="sub_title" sortOrder="30" formElement="textarea">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="source" xsi:type="string">page</item>
+                </item>
+            </argument>
+            <settings>
+                <validation>
+                    <rule name="required-entry" xsi:type="boolean">false</rule>
+                </validation>
+                <dataType>textarea</dataType>
+                <label translate="true">FAQs</label>
+                <dataScope>faqs</dataScope>
+            </settings>
+        </field>
+    </fieldset>
+</form>
