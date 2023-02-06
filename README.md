@@ -30,12 +30,19 @@ php bin/magento cache:flush
 
 &nbsp;
 
+<kbd>
+
 ![image2](https://user-images.githubusercontent.com/123800304/215436196-60c89eea-b7fb-489d-b9cf-9d89be422e9e.png)
+
+</kbd>
 
 
 &nbsp;
 
+<kbd>
+
 ![image1](https://user-images.githubusercontent.com/123800304/215436250-18d75caf-9fb5-4cea-9c26-48196e0e164a.png)
 
+</kbd>
 
 > Similarly you can also do it for text area, or other imput fields based on the requirement by make the changes in the code.
